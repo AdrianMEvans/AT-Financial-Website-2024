@@ -1331,7 +1331,9 @@ section {
   border-radius: 5px;
   background: #fff;
   transition: 0.5s;
+  min-height: 320px; /* Adjust for tablets */
 }
+
 .team .member .pic {
   overflow: hidden;
   width: 100%;
