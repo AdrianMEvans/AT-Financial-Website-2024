@@ -1334,11 +1334,15 @@ section {
 }
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
-  border-radius: 50%;
+  width: 100%;
+  max-width: 100px; /* Adjust this as needed */
+  height: 100px; /* Ensure all images are the same height */
+  object-fit: cover; /* Prevents distortion and ensures uniformity */
+  border-radius: 50%; /* Optional: for a circular profile effect */
 }
 .team .member .pic img {
   transition: ease-in-out 0.3s;
+
 }
 .team .member:hover {
   transform: translateY(-10px);
